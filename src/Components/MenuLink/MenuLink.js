@@ -7,7 +7,9 @@ const MenuLink = ({ links }) => {
     <li className="text-2xl font-semibold my-6 md:my-0">
       <NavLink
         className={({ isActive }) =>
-          isActive ? "text-indigo-600" : " duration-500 hover:text-indigo-600"
+          isActive
+            ? "text-indigo-600 underline"
+            : " duration-500 hover:text-indigo-600"
         }
         to={link}
       >
