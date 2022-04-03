@@ -4,7 +4,7 @@ import sony from "../../Assets/Images/sony-a7.png";
 const HomeHeader = () => {
   const navigate = useNavigate();
   return (
-    <section className="grid md:grid-cols-2 gap-5 md:w-[85%] py-10 md:py-20 mx-auto">
+    <section className="grid md:grid-cols-2 gap-5 md:w-[85%] py-10  mx-auto">
       <div className="p-10 order-1">
         <p className="flex gap-3 items-center bg-slate-100 p-2 rounded-xl">
           <span className="h-6 w-6 block bg-indigo-600 rounded-full"></span>{" "}
