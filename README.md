@@ -11,5 +11,6 @@
 > - Reviews page add card clint reviews show
 > - Home page show navbar,footer and two section and dynamic reviews section and button add
 > - all page are mobile responsive
+> - Dashboard page add 4 type chart for data analyses
 
 <img src="./src/Assets/Images/Sony-Alpha-7-Iv-reviews.png">

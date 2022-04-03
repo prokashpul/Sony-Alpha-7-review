@@ -26,9 +26,9 @@ const HomeHeader = () => {
         <div className="my-10 w-full flex justify-center md:justify-start">
           <button
             className="bg-indigo-600  hover:bg-yellow-600 duration-500 text-white text-xl py-2 px-6 rounded-full  mr-4 flex  gap-4"
-            onClick={() => navigate("/reviews")}
+            onClick={() => navigate("/about")}
           >
-            Explore Now <ArrowRightIcon className="w-6 h-6"></ArrowRightIcon>
+            Learn More <ArrowRightIcon className="w-6 h-6"></ArrowRightIcon>
           </button>
         </div>
       </div>
