@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { MenuAlt2Icon, XIcon } from "@heroicons/react/solid";
 import MenuLink from "../MenuLink/MenuLink";
+import { Link } from "react-router-dom";
 const Header = () => {
   const [openMenu, setMenu] = useState(false);
   const links = [
@@ -14,7 +15,9 @@ const Header = () => {
     <nav className="md:flex sticky bg-white top-0 duration-500 justify-between items-center h-20  shadow-lg md:px-10 px-5">
       <div className="flex justify-between w-full h-20 items-center">
         <div className="font-bold text-5xl">
-          <span className="text-yellow-600">Pro</span>web
+          <Link to="/">
+            <span className="text-indigo-600">Pro</span>web
+          </Link>
         </div>
         <div
           onClick={() => setMenu(!openMenu)}
@@ -29,7 +32,7 @@ const Header = () => {
       </div>
       <ul
         onClick={() => setMenu(!openMenu)}
-        className={`min-h-[88.5vh] md:flex items-center justify-end gap-5 absolute md:static top-20 md:bg-transparent bg-yellow-500 duration-500  w-full  text-center py-10 md:py-0 ${
+        className={`min-h-[88.5vh] md:flex items-center justify-end gap-5 absolute md:static top-20 md:bg-transparent bg-indigo-900 duration-500  w-full  text-center py-10 md:py-0 ${
           openMenu ? "left-0" : "left-[-100%]"
         }`}
       >

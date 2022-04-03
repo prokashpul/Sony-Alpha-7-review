@@ -12,7 +12,7 @@ const ErrorPage = () => {
       <h2 className="font-bold text-4xl my-4">Oops!</h2>
       <p>We can’t seem to find the page you are looking for</p>
       <Link
-        className="bg-indigo-600 py-2 px-4 text-2xl text-white rounded-full my-10"
+        className="bg-indigo-600 hover:bg-indigo-900 duration-500 py-2 px-6 text-2xl text-white rounded-full my-10"
         to="/"
       >
         Back Home

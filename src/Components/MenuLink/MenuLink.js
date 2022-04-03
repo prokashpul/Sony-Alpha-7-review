@@ -9,7 +9,7 @@ const MenuLink = ({ links }) => {
         className={({ isActive }) =>
           isActive
             ? "text-indigo-600 underline"
-            : " duration-500 hover:text-indigo-600"
+            : " duration-500 text-white md:text-gray-900 hover:text-indigo-600"
         }
         to={link}
       >

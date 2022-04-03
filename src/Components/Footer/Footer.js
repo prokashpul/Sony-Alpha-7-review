@@ -7,11 +7,11 @@ import linkdIn from "../../Assets/Images/Linkedin Icon.svg";
 import youtube from "../../Assets/Images/Youtube Icon.svg";
 const Footer = () => {
   return (
-    <footer className="h-[408px] bg-[#0a142f] flex flex-col justify-center items-center">
+    <footer className="h-96 bg-[#0a142f] flex flex-col justify-center items-center">
       <h2 className="text-5xl font-bold text-white">
-        <span className="text-yellow-600">Pro </span>web
+        <span className="text-indigo-600">Pro </span>web
       </h2>
-      <div className="flex flex-wrap gap-2 md:gap-6 text-white mt-10 text-2xl">
+      <div className="flex flex-wrap gap-2 md:gap-6 text-white mt-5 text-2xl">
         <NavLink
           className={({ isActive }) =>
             isActive ? "text-indigo-600" : " duration-500 hover:text-indigo-600"
