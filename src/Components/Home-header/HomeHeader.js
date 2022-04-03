@@ -1,3 +1,4 @@
+import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import sony from "../../Assets/Images/sony-a7.png";
@@ -22,12 +23,14 @@ const HomeHeader = () => {
           on-the-spot delivery and distribution. The α7 IV is a camera designed
           to bring to life the artistic visions of today's creators.
         </p>
-        <button
-          className="bg-indigo-600 hover:bg-yellow-600 duration-500 text-white text-xl py-1 px-6 rounded-full mr-4"
-          onClick={() => navigate("/reviews")}
-        >
-          Explore
-        </button>
+        <div className="my-10 w-full flex justify-center md:justify-start">
+          <button
+            className="bg-indigo-600  hover:bg-yellow-600 duration-500 text-white text-xl py-2 px-6 rounded-full  mr-4 flex  gap-4"
+            onClick={() => navigate("/reviews")}
+          >
+            Explore Now <ArrowRightIcon className="w-6 h-6"></ArrowRightIcon>
+          </button>
+        </div>
       </div>
       <div className="md:p-10 p-5 md:order-1">
         <img className="h-96 w-full " src={sony} alt="Sony Alpha 7 IV" />

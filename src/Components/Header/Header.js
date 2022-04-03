@@ -12,7 +12,7 @@ const Header = () => {
     { name: "About ", link: "/about" },
   ];
   return (
-    <nav className="md:flex sticky bg-white top-0 duration-500 justify-between items-center h-20  shadow-lg md:px-10 px-5">
+    <nav className="z-50 md:flex sticky bg-white top-0 duration-500 justify-between items-center h-20  shadow-lg md:px-10 px-5">
       <div className="flex justify-between w-full h-20 items-center">
         <div className="font-bold text-5xl">
           <Link to="/">
