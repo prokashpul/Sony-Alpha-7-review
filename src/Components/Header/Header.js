@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [openMenu, setMenu] = useState(false);
   const links = [
-    { name: "Home", link: "/", id: 1 },
-    { name: "Reviews", link: "/reviews", id: 2 },
-    { name: "Dashboard", link: "/dashboard", id: 3 },
-    { name: "Blogs", link: "/blogs", id: 4 },
-    { name: "About ", link: "/about", id: 4 },
+    { name: "Home", link: "/" },
+    { name: "Reviews", link: "/reviews" },
+    { name: "Dashboard", link: "/dashboard" },
+    { name: "Blogs", link: "/blogs" },
+    { name: "About ", link: "/about" },
   ];
   return (
     <nav className="md:flex sticky bg-white top-0 duration-500 justify-between items-center h-20  shadow-lg md:px-10 px-5">
@@ -36,8 +36,8 @@ const Header = () => {
           openMenu ? "left-0" : "left-[-100%]"
         }`}
       >
-        {links.map((link) => (
-          <MenuLink links={link} key={link.key}></MenuLink>
+        {links.map((link, index) => (
+          <MenuLink links={link} key={index}></MenuLink>
         ))}
       </ul>
     </nav>

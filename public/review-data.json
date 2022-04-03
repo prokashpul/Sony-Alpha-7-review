@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Gabrie Jonson",
+    "reviews": "I bought this a month ago and is the best decision iade as a photographer.The camere has great feature, great autofocus, great button placements, and lots and lots of customization.I love how the camera feels in my hands, while having a very good grip of the camera, so i feel confident when holding it, even woth heavier and longer lenses.",
+    "img": "https://cdn.pixabay.com/photo/2017/08/01/01/33/beanie-2562646_1280.jpg",
+    "Star": 5,
+    "id": 1
+  },
+  {
+    "name": "Janey maxul",
+    "reviews": "Only had the camera a week or so, but immediately impressed by superior speed and accuracy of focusing - esp face recognition. Only thing i dont like as much as the 7M3 is the screen - bit awkward - found M3 much better.",
+    "img": "https://cdn.pixabay.com/photo/2016/11/18/19/07/happy-1836445_1280.jpg",
+    "Star": 5,
+    "id": 2
+  },
+  {
+    "name": "Traffik",
+    "reviews": "Almost 2 weeks in and I’m loving all the features of this Camera and the crisp photos and videos it takes. It also has great build quality because it is fully weather sealed",
+    "img": "https://cdn.pixabay.com/photo/2017/08/01/01/33/beanie-2562646_1280.jpg",
+    "Star": 4.5,
+    "id": 3
+  },
+  {
+    "name": "dragan mikki",
+    "reviews": "I am new to Sony photographic equipment, and with my limited experience so far I am comfortable in saying that this camera possess the best auto focusing of all cameras I have owned and worked with. I am almost certain the the dynamic range of the sensor is the best I have experienced.I would not describe the ease of operating the camera as the easiest amongst the more established professional brands, but I approached this camera as a tool more akin to being designed by and for, a contemporary user without modern outlook on photography.",
+    "img": "https://cdn.pixabay.com/photo/2016/11/29/04/54/photographer-1867417_1280.jpg",
+    "Star": 5,
+    "id": 4
+  },
+  {
+    "name": "Kristian Capuliak ",
+    "reviews": "So far I bought this camera week ago and it did exceeded all of my expectations. Excellent video performance, excellent photo performance, great menu system coming from previous generation camera.",
+    "img": "https://cdn.pixabay.com/photo/2016/11/29/06/04/adult-1867699_1280.jpg",
+    "Star": 4,
+    "id": 5
+  },
+  {
+    "name": "craciun gabriel ",
+    "reviews": "I bought this camera about three weeks ago, and the camera did not dissapoint.The features are great, great auto focus, feels good in the hand all the buttons are customizable, and greatly placed.",
+    "img": "https://cdn.pixabay.com/photo/2016/03/23/08/34/woman-1274361_1280.jpg",
+    "Star": 5,
+    "id": 6
+  }
+]
