@@ -1,0 +1,20 @@
+[
+  {
+    "question": "What is Contetext Api?",
+    "answer": "Context API is a way to send data parent component to all child components without prop tree. it's through any type of data,array,multiple data etc can be sent any single and multiple child component.The context  defined  props will be available for all child elements without involvement.we can easily avoid passing data props through intermediate elements by using context api.useContext is A very powerful hooks in react.",
+    "img": "https://cdn.pixabay.com/photo/2019/03/24/05/42/confuse-4076929_1280.jpg",
+    "id": 1
+  },
+  {
+    "question": "What is a semantic tag in HTML?",
+    "answer": "HTML semantics is a tag that gives to meaning of an HTML element. Semantics tags without just mentioning the page structure. It makes HTML more understandable and better defines.it also makes the layouts of different meaningfull parts of a web page. This outlet will focus on the semantic tags of HTML. <header><main><nav><section><artical><aside><footer> etc are html semantics tags. ",
+    "img": "https://cdn.pixabay.com/photo/2019/03/24/05/42/confuse-4076929_1280.jpg",
+    "id": 2
+  },
+  {
+    "question": "Difference between inline and inline block elements.",
+    "answer": "HTML semantics is a tag that gives to meaning of an HTML element. Semantics tags without just mentioning the page structure. It makes HTML more understandable and better defines.it also makes the layouts of different meaningfull parts of a web page. This outlet will focus on the semantic tags of HTML. <header><main><nav><section><artical><aside><footer> etc are html semantics tags. ",
+    "img": "https://cdn.pixabay.com/photo/2019/03/24/05/42/confuse-4076929_1280.jpg",
+    "id": 3
+  }
+]
