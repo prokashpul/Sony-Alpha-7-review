@@ -7,7 +7,7 @@ const Reviews = () => {
   return (
     <section className="md:w-[85%] w-[95%] mx-auto my-10 md:my-20">
       <h2 className="text-center font-bold text-3xl md:text-5xl ">
-        All Reviews ({reviews.length})
+        All Customer Reviews ({reviews.length})
       </h2>
       <div className="grid md:grid-cols-3 md:mt-20 mt-10 gap-5">
         {reviews.map((reviews) => (

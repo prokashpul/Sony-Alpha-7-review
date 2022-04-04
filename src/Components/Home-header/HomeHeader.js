@@ -15,7 +15,8 @@ const HomeHeader = () => {
           Your <span className="text-indigo-600">Future</span> Camera.
         </h2>
         <h2 className="font-black text-2xl md:text-3xl uppercase mt-5">
-          Sony is your <span className="text-indigo-600"> Bast Choice.</span>
+          Sony might be{" "}
+          <span className="text-indigo-600"> your best choice.</span>
         </h2>
         <p className="my-6 text-lg">
           With groundbreaking performance in both still and movie recording, the

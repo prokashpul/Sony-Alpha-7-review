@@ -12,8 +12,8 @@
     "id": 2
   },
   {
-    "question": "Difference between inline and inline block elements.",
-    "answer": "1.The width and height properties of the inline element cannot be set, whereas the inline-block element can be. 2. Inline elements cannot have margins above or below which can be set for an inline-block element and block element. 3 Inline and inline-block elements are both allowed to be placed next to each other. Ex: inline Tags- <span>,<small>,<em>,<img> etc . Inline Block Tags:,<a>,<button><input> etc. ",
+    "question": "Difference between Block , inline and inline block elements.",
+    "answer": "1.The width and height properties of the inline element cannot be set, whereas The block and the inline-block element can be. 2. Inline elements cannot have margins above or below which can be set for an inline-block element and block element. 3 Inline and inline-block elements are both allowed to be placed next to each other but block elements are placed one on another.. Ex: inline Tags- <span>,<small>,<em>,<img> etc . Inline Block Tags:,<a>,<button><input> etc. Block Tags: <div><p><h1><h2> etc",
     "img": "https://cdn.pixabay.com/photo/2019/03/24/05/42/confuse-4076929_1280.jpg",
     "id": 3
   }

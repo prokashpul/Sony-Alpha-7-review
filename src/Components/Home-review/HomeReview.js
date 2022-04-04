@@ -10,7 +10,7 @@ const HomeReview = () => {
   return (
     <section className="md:w-[85%] w-[95%] mx-auto mt-10 mb-20">
       <h2 className="text-center font-bold text-3xl md:text-5xl ">
-        Reviews ({threeReviews.length})
+        Customer Reviews ({threeReviews.length})
       </h2>
       <div className="grid md:grid-cols-3 md:mt-20 mt-10 gap-5">
         {threeReviews.map((reviews) => (
@@ -22,7 +22,7 @@ const HomeReview = () => {
           className="bg-indigo-600  hover:bg-yellow-600 duration-500 text-white text-xl py-2 px-6 rounded-full  mr-4 flex items-center gap-4"
           onClick={() => navigate("/reviews")}
         >
-          All Reviews <ArrowRightIcon className="w-6 h-6"></ArrowRightIcon>
+          See All Reviews <ArrowRightIcon className="w-6 h-6"></ArrowRightIcon>
         </button>
       </div>
     </section>
