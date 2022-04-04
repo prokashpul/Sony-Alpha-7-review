@@ -11,11 +11,11 @@ const HomeHeader = () => {
           <span className="h-6 w-6 block bg-indigo-600 rounded-full"></span>{" "}
           Alpha 7 IV full-frame hybrid camera
         </p>
-        <h2 className="font-black text-3xl md:text-5xl mt-10">
-          Your Future Camera
+        <h2 className="font-black text-3xl md:text-4xl uppercase mt-10">
+          Your <span className="text-indigo-600">Future</span> Camera.
         </h2>
-        <h2 className="font-black text-3xl md:text-4xl mt-5">
-          Sony is your <span className="text-indigo-600"> Bast Choice</span>
+        <h2 className="font-black text-2xl md:text-3xl uppercase mt-5">
+          Sony is your <span className="text-indigo-600"> Bast Choice.</span>
         </h2>
         <p className="my-6 text-lg">
           With groundbreaking performance in both still and movie recording, the

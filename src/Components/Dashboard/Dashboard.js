@@ -22,7 +22,7 @@ const Dashboard = () => {
 
   return (
     <>
-      <h2 className="text-center font-black text-3xl md:text-5xl mt-10">
+      <h2 className="text-center font-black text-3xl md:text-5xl uppercase mt-10">
         Dashboard
       </h2>
       <div className="md:w-[85%] mx-auto grid md:grid-cols-2 md:gap-5">

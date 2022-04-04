@@ -45,7 +45,9 @@ const About = () => {
     <div>
       <div className=" h-44 md:h-96 w-full bg-[url('https://cdn.pixabay.com/photo/2022/01/18/16/19/camera-6947414_1280.jpg')] relative">
         <div className=" h-44 md:h-96 w-full absolute bg-indigo-700/50 justify-center flex items-center">
-          <h2 className="font-black text-6xl text-white text-center">About </h2>
+          <h2 className="font-black text-3xl md:text-5xl text-white text-center uppercase">
+            About{" "}
+          </h2>
         </div>
       </div>
       <h2 className="font-bold text-center text-4xl my-10">

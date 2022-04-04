@@ -10,7 +10,13 @@ const Blogs = () => {
   }, []);
   return (
     <div className="mb-20">
-      <h2 className="text-center font-black text-5xl my-10">Blogs</h2>
+      <div className=" h-44 md:h-96 w-full bg-[url('https://cdn.pixabay.com/photo/2014/12/27/15/31/camera-581126_960_720.jpg')] relative">
+        <div className=" h-44 md:h-96 w-full absolute bg-indigo-700/70 justify-center flex items-center">
+          <h2 className="font-black text-3xl md:text-5xl text-white uppercase text-center">
+            Blogs
+          </h2>
+        </div>
+      </div>
       <div className="md:w-[85%] w-[95%] mx-auto my-10">
         {faqs.map((faq) => (
           <Blog faq={faq} key={faq.id}></Blog>
