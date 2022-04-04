@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="h-96 bg-[#0a142f] flex flex-col justify-center items-center">
       <h2 className="text-5xl font-bold text-white">
-        <span className="text-indigo-600">Pro </span>web
+        <span className="text-indigo-600">Pro</span>web
       </h2>
       <div className="flex flex-wrap justify-center gap-2 md:gap-6 text-white mt-5 text-2xl">
         <NavLink

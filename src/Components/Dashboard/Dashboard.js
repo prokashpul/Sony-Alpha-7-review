@@ -25,7 +25,7 @@ const Dashboard = () => {
       <h2 className="text-center font-black text-3xl md:text-5xl uppercase mt-10">
         Dashboard
       </h2>
-      <div className="md:w-[85%] mx-auto grid md:grid-cols-2 md:gap-5">
+      <div className="md:w-[85%] mx-auto grid md:grid-cols-2 md:gap-5 overflow-hidden">
         <div className="md:m-10 mx-auto ">
           <h2 className="font-semibold text-indigo-600 text-3xl my-10 text-center">
             Month Wise sales
@@ -59,7 +59,7 @@ const Dashboard = () => {
             Investment vs Revenue
           </h2>
           <AreaChart
-            width={380}
+            width={350}
             height={400}
             data={rechartData}
             margin={{
