@@ -43,7 +43,7 @@ const About = () => {
   console.log(abouts);
   return (
     <div>
-      <div className=" h-44 md:h-96 w-full bg-[url('https://cdn.pixabay.com/photo/2022/01/18/16/19/camera-6947414_1280.jpg')] relative">
+      <div className=" h-44 md:h-96 w-full bg-[url('https://cdn.pixabay.com/photo/2022/01/18/16/19/camera-6947414_1280.jpg')] bg-no-repeat bg-cover  relative">
         <div className=" h-44 md:h-96 w-full absolute bg-indigo-700/50 justify-center flex items-center">
           <h2 className="font-black text-3xl md:text-5xl text-white text-center uppercase">
             About{" "}
