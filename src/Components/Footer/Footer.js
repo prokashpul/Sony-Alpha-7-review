@@ -53,25 +53,25 @@ const Footer = () => {
             alt="facebook"
           />
         </a>
-        <a href="https://www.facebook.com/prokash.pul/">
+        <a href="https://www.instagram.com/prokash_pul/">
           <img
             className="p-2 bg-indigo-500 hover:bg-transparent border-2 h-14 w-14 rounded-lg border-white hover:border-indigo-500"
             src={instagram}
-            alt="facebook"
+            alt="nstagram"
           />
         </a>
         <a href="https://www.facebook.com/prokash.pul/">
           <img
             className="p-2 bg-indigo-500 hover:bg-transparent border-2 h-14 w-14 rounded-lg border-white hover:border-indigo-500"
             src={twitter}
-            alt="facebook"
+            alt="Twitter"
           />
         </a>
-        <a href="https://www.facebook.com/prokash.pul/">
+        <a href="https://www.linkedin.com/in/prokash-pul-90a4ab1b5/">
           <img
             className="p-2 bg-indigo-500 hover:bg-transparent border-2 h-14 w-14 rounded-lg border-white hover:border-indigo-500"
             src={linkdIn}
-            alt="facebook"
+            alt="linkdIn"
           />
         </a>
         <a href="https://www.facebook.com/prokash.pul/">
