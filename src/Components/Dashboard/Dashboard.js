@@ -31,8 +31,8 @@ const Dashboard = () => {
             Month Wise sales
           </h2>
           <LineChart
-            width={400}
-            height={500}
+            width={350}
+            height={400}
             data={rechartData}
             margin={{
               top: 5,
@@ -59,8 +59,8 @@ const Dashboard = () => {
             Investment vs Revenue
           </h2>
           <AreaChart
-            width={400}
-            height={500}
+            width={380}
+            height={400}
             data={rechartData}
             margin={{
               top: 10,
@@ -95,8 +95,8 @@ const Dashboard = () => {
             Sell vs Investment vs Revenue
           </h2>
           <ComposedChart
-            width={400}
-            height={500}
+            width={380}
+            height={400}
             data={rechartData}
             margin={{
               top: 20,
@@ -136,11 +136,11 @@ const Dashboard = () => {
         </div>
         <div className="md:m-10 mx-auto">
           <h2 className="font-semibold text-indigo-600 text-3xl my-10 text-center">
-            sell vs Investment
+            Sell & Investment
           </h2>
           <BarChart
-            width={400}
-            height={500}
+            width={380}
+            height={400}
             data={rechartData}
             margin={{
               top: 20,

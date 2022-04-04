@@ -11,7 +11,7 @@ const Footer = () => {
       <h2 className="text-5xl font-bold text-white">
         <span className="text-indigo-600">Pro </span>web
       </h2>
-      <div className="flex flex-wrap gap-2 md:gap-6 text-white mt-5 text-2xl">
+      <div className="flex flex-wrap justify-center gap-2 md:gap-6 text-white mt-5 text-2xl">
         <NavLink
           className={({ isActive }) =>
             isActive ? "text-indigo-600" : " duration-500 hover:text-indigo-600"
